@@ -1,0 +1,24 @@
+.root {
+    -fx-background-color: #3949AB; /* Bleu profond */
+}
+
+.button {
+    -fx-background-color: #FFC107; /* Jaune */
+    -fx-text-fill: #000000; /* Texte en noir */
+    -fx-font-weight: bold;
+}
+
+.menu-button {
+    -fx-background-color: #FFC107; /* Jaune */
+    -fx-text-fill: #000000; /* Texte en noir */
+    -fx-font-weight: bold;
+}
+
+.text-field {
+    -fx-background-color: #E3F2FD; /* Bleu très clair */
+    -fx-text-fill: #000000; /* Texte en noir */
+}
+
+.label {
+    -fx-text-fill: #000000; /* Texte en blanc */
+}

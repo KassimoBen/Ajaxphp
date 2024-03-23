@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.exament_javfx.HelloController"
+      spacing="10"
+      stylesheets="@/style.css"
+> <!-- Ajoutez cette partie pour référencer votre feuille de style -->
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+    <children>
+        <MenuButton text="Options">
+            <items>
+                <MenuItem text="Table de Multiplication" onAction="#showMultiplicationTable"/>
+                <MenuItem text="Calculatrice" onAction="#showCalculator"/>
+            </items>
+        </MenuButton>
+        <TextField fx:id="inputField" promptText="Entrez un nombre" />
+        <Button text="Soumettre" onAction="#handleSubmit"/>
+        <Label fx:id="outputLabel"/>
+    </children>
+</VBox>
