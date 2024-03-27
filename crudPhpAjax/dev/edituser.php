@@ -62,8 +62,7 @@
             <div id="niveau">
                 <label for="">Niveau : </label><br>
                 <input type="radio" class="homme" name="sexe" value="licence" <?php  if($rows['radio']== "licence") {
-                        echo "checked";
-                        };?> /><label for="">LICENCE</label><br />
+                        echo "checked"; };?> /><label for="">LICENCE</label><br />
                 <input type="radio" class="femme" name="sexe" value="masters" <?php  if($rows['radio']== "masters") {
                         echo "checked";
                         };?> /><label for="">MASTERS</label><br />

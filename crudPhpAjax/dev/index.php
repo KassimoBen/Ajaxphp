@@ -106,9 +106,10 @@
                     <?php endforeach;?>
                 </table>
                 <br>
-                <button id="btn"><a href="adduser.php">Add User</a></button>
+
             </div>
         </div>
+        <button id="btn"><a href="adduser.php">Add User</a></button>
     </header>
     <!-- Intro -->
     <div class="container text-center">

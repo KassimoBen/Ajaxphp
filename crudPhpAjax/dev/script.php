@@ -45,6 +45,12 @@ function submitData(action) {
                 alert(response);
                 if (response == "supprimer") {
                     $("#" + action).css("display", "none");
+                } else if (response == "mise à jour avec successé") {
+                    window.location.href = "./index.php";
+                } else if (response == "l'enregistrement est sucsée") {
+                    $("#name").val(""),
+                        $("#email").val(""),
+                        $("#gender").val("");
                 }
             }
         })
